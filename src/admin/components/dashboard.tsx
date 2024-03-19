@@ -8,7 +8,7 @@ const Dash: FC = () => {
         <br />
         <br />
         <H2 fontWeight="bold">Welcome, Candidate!</H2>
-        <H4 >By this <Link href="https://docs.google.com/document/d/1VtBNKJslytjY3PVi5X-tQtwZzKA4lWH6yxNiGxV8UEA/edit?usp=sharing">Link</Link> you will find your task for the home assignment, good luck!</H4>
+        <H4 >Happy coding and good luck, may the Force be with you!</H4>
 
         
       </Box>
