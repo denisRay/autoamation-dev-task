@@ -33,14 +33,22 @@ services:
       - "3306:3306"
     volumes:
       - mysql_db_example_app:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      retries: 10
 
   app:
     container_name: adminjs-app
+    depends_on:
+      postgres_db:
+        condition: service_started
+      mysql_db:
+        condition: service_healthy
+      mongo_db:
+        condition: service_started
     build: .
     ports:
       - "3000:3000"
-    links:
-    - postgres_db
 
 volumes:
   mongo_db_example_app:
