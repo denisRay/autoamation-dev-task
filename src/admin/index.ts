@@ -66,8 +66,8 @@ export const generateAdminJSConfig: () => AdminJSOptions = () => ({
     scripts: process.env.NODE_ENV === 'production' ? ['/gtm.js'] : [],
   },
   branding: {
-    logo: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Unity_2021.svg",
-    companyName: 'Unity Task',
+    logo: "https://duit.edu.ua/wp-content/uploads/2020/03/logo.png",
+    companyName: 'DUIT',
     favicon: '/favicon.ico',
     theme: {
       colors: { primary100: '#4D70EB' },

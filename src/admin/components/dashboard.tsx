@@ -7,8 +7,8 @@ const Dash: FC = () => {
       <Box flex flexDirection="column" alignItems="center" justifyContent="center">
         <br />
         <br />
-        <H2 fontWeight="bold">Welcome, Candidate!</H2>
-        <H4 >Happy coding and good luck, may the Force be with you!</H4>
+        <H2 fontWeight="bold">Welcome!</H2>
+        <H4 >Hello from Denys!</H4>
 
         
       </Box>
