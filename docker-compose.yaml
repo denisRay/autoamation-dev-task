@@ -23,7 +23,7 @@ services:
 
   mysql_db:
     container_name: adminjs-example-mysql
-    image: mysql:8.0.35
+    image: mysql:8.3
     environment:
       MYSQL_USER: adminjs
       MYSQL_PASSWORD: adminjs
