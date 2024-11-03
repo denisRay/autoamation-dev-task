@@ -11,7 +11,7 @@ services:
 
   postgres_db:
     container_name: adminjs-example-postgres
-    image: postgres
+    image: postgres:16.0
     environment:
       - POSTGRES_DB=adminjs
       - POSTGRES_USER=adminjs
