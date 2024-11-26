@@ -52,7 +52,7 @@ export const menu: Record<string, ResourceOptions['navigation']> = {
   // sequelize: { name: 'Sequelize', icon: 'Folder' },
   // typeorm: { name: 'Typeorm', icon: 'Folder' },
   // mikroorm: { name: 'Mikroorm', icon: 'Folder' },
-  prisma: { name: 'Happy Folder', icon: 'Folder' }
+  prisma: { name: 'Мої збережені ігри', icon: 'Folder' }
   // objection: { name: 'Objection', icon: 'Folder' },
   // rest: { name: 'REST', icon: 'Link' },
 };

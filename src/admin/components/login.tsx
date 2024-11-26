@@ -74,7 +74,7 @@ export const Login: React.FC<LoginProps> = (props) => {
           >
             <H2 fontWeight="lighter">{translateComponent('Login.welcomeHeader')}</H2>
             <Text fontWeight="lighter" mt="default">
-              Lab #3 By Denys Raihorodskyi
+              Lab #4 By Denys Raihorodskyi
             </Text>
             <IllustrationsWrapper p="xxl">
               <Box display="inline" mr="default">
